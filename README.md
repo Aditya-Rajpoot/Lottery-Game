@@ -1,16 +1,23 @@
-# React + Vite
+🎰 Lottery Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun, interactive Lottery Game built with React to practice props, state management, and array-based logic.
 
-Currently, two official plugins are available:
+🔗 Live Demo: lottery-game-pink-gamma.vercel.app 📦 Repository: github.com/Aditya-Rajpoot/Lottery-Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
+🎟️ Randomly generates a ticket with a set of numbers
+🔄 "Buy new Ticket" to generate a fresh set of numbers
+🏆 Win condition check based on the sum of ticket numbers
+🎉 Instant win/lose feedback
+💅 Clean, card-based dark UI
 
-## React Compiler
+🛠️ Tech Stack
+React.js – UI library
+Vite – Build tool & dev server
+JavaScript (ES6+)
+CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎮 How It Works
+Each ticket is an array of randomly generated numbers (n numbers, default n = 3)
+A winning condition function checks whether the sum of the ticket's numbers matches a target value (default target: 15)
+Clicking "Buy new Ticket" regenerates the numbers and re-checks the win condition

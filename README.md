@@ -7,7 +7,7 @@
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-Build_Tool-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
 
-[Live Demo](https://lottery-game-pink-gamma.vercel.app/) · [Repository](https://github.com/Aditya-Rajpoot/Lottery-Game)
+[Live Demo](https://lottery-game-pink-gamma.vercel.app/)
 
 </div>
 
